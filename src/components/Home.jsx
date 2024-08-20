@@ -1,5 +1,6 @@
 // src/components/Home.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -28,12 +29,12 @@ function Home() {
             >
               Get in Touch
             </a>
-            <a
-              href="#projects"
+            <Link 
+              to="/projects" 
               className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-white hover:text-blue-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-75"
             >
               View My Work
-            </a>
+            </Link >
           </div>
         </div>
         <div className="md:w-1/2">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { DiReact, DiNodejsSmall } from "react-icons/di";
 import { SiNextdotjs, SiRedux, SiMongodb } from "react-icons/si";
@@ -59,13 +60,13 @@ function Experience() {
 
         {/* Link to More Projects */}
         <div className="text-center mt-16">
-          <a 
-            href="/projects" 
-            className="inline-flex items-center text-lg font-semibold text-blue-700 hover:text-blue-500 transition-colors duration-300"
-          >
-            View More Projects
-            <FaArrowRight className="ml-2" />
-          </a>
+        <Link 
+    to="/projects" 
+    className="inline-flex items-center text-lg font-semibold text-blue-700 hover:text-blue-500 transition-colors duration-300"
+  >
+    View More Projects
+    <FaArrowRight className="ml-2" />
+  </Link>
         </div>
       </div>
     </section>
