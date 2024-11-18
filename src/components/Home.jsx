@@ -12,11 +12,11 @@ function Home() {
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 animate-pulse">
-              Hi, I'm a  Frontend Engineer
+              Hi, I'm a  Software Engineer
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
-            Specializing in HTML5, CSS3 React, and JavaScript
+            Specializing in HTML5, CSS3 React, and JavaScript and Nodejs
           </p>
           <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto md:mx-0 text-gray-400">
             I build pixel-perfect, engaging, and accessible digital experiences 
